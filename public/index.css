@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    /* Altura total da janela de visualização */ 
+    margin: 0; } 
+    .dashboard { text-align: justify; max-width: 900px; 
+        /* Largura máxima do contêiner */
+        font-family: Arial, sans-serif; } 
+        #tarefas 
+        { 
+            max-width: 600px; 
+            margin: auto; 
+            padding: 20px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            background-color: #f9f9f9; } 
+            .tarefa 
+            { 
+                margin-bottom: 20px; 
+                padding: 10px; 
+                border-bottom: 1px solid #ccc; 
+            } 
+            .tarefa h2 { margin: 0; font-size: 20px; } .tarefa p { margin: 5px 0;
+}
+.login{
+    background-image:linear-gradient(45deg, rgb(7, 227, 227), rgb(236, 236, 68));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    padding: 55px;
+    border: 20px;
+    color:rgb(253, 252, 252);
+    border-radius: 12px;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0;
+    width: 100%;
+    height: 100vh;
+} 
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button-login{
+    background-color: rgb(42, 194, 158);
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+.container-login{
+    background: rgba(5, 10, 15, 70);
+    width: 40%;
+    height: 40%;
+}
+h1{
+    text-align: center;
+}

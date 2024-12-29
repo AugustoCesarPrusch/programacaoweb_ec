@@ -1,0 +1,21 @@
+[
+    {
+      "codigo": 1,
+      "nome": "Tarefa 1",
+      "descricao": "Descrição da Tarefa 1",
+      "dataCriacao": "2024-12-28"
+    },
+    {
+      "codigo": 2,
+      "nome": "Tarefa 2",
+      "descricao": "Descrição da Tarefa 2",
+      "dataCriacao": "2024-12-29"
+    },
+    {
+      "codigo": 3,
+      "nome": "Tarefa 3",
+      "descricao": "Descrição da Tarefa 3",
+      "dataCriacao": "2024-12-30"
+    }
+  ]
+  
