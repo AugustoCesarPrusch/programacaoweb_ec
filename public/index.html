@@ -1,27 +1,27 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Programação de WEB</title>
-        <!--Dentro do Style é as comfigurações do meu CSS-->
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="login">
-            <div class="container-login">
-                <div class="" id=""></div>
-                <h1> Login </h1>
-                <input id="usuario" type="text" placeholder="Nome"> 
-                <br><br>
-                <input id="senha" type="passsword" placeholder="Senha">
-                <br><br>
-                <button id="button-login" class="button-login">Enviar</button>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação de WEB</title>
+    <!-- Referência para o arquivo CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="login">
+        <div class="container-login">
+            <h1>Login</h1>
+            <input id="usuario" type="text" placeholder="Nome"> 
+            <br><br>
+            <input id="senha" type="password" placeholder="Senha">
+            <br><br>
+            <button id="button-login" class="button-login">Enviar</button>
         </div>
-        <div id="tarefas" style="display: none;" class="dashboard">
-            <button id="atualizar">Atualizar Tarefas</button> 
-            <ul id="listaTarefas"></ul>
-        </div>
-        <script type="module" src="index.js"></script>
-    </body>
+    </div>
+    <div id="tarefas" style="display: none;" class="dashboard">
+        <button id="atualizar">Atualizar Tarefas</button>
+        <ul id="listaTarefas"></ul>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
 </html>
