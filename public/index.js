@@ -31,8 +31,19 @@ function atualizarTarefas() {
 }
 
 document.getElementById('button-login').addEventListener('click', login);
+// Seleciona o botão pelo ID
+const botao = document.getElementById('sair');
 
-async function login() {
+// Adiciona um evento de clique ao botão
+botao.addEventListener('click', function() {
+  //Remove o token do sessionStorage
+    sessionStorage.removeItem('token');
+    const login = document.querySelector('.login');
+    const dashboard = document.querySelector('.dashboard');
+    login.style.display = 'flex';
+    dashboard.style.display = 'none';
+});
+async function login(event) {
   const usuario = document.getElementById('usuario')
   console.log("usuario: ",usuario.value)
   const senha = document.getElementById('senha')
